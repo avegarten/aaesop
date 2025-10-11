@@ -1,4 +1,3 @@
-i dont really know what im doing
-but heres my cool and awesome website 
+i dont really know what im doing.....
 
 https://aaesop.org/
