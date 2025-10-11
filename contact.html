@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>contact @ aaesop.org</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="android-chrome" href="favicons/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <link rel="android-chrome" href="favicons/android-chrome-512x512.png" sizes="512x512" type="image/png">
+
+
+<!-- fix later with actual paths once published-->
+</head>
+
+<body>
+
+  <div align="center">
+  <p class="title">
+    /aaesop.org/contact.html
+  </p>
+
+
+    <p>
+     if you want to contact me, you can do so here:
+    </p>
+
+    <p style="color: #e27f87;">
+    [email: &#x61;&#x76;&#x65;&#x67;&#x61;&#x72;&#x74;&#x65;&#x6E; &lt;at&gt; &#x70;&#x72;&#x6F;&#x74;&#x6F;&#x6E; &lt;dot&gt; &#x6D;&#x65;]
+    </p>
+
+    <p>
+        <a target="_blank" rel="noopener noreferrer" href="https://x.com/aaesopsfable">[twitter: aaesopsfable]</a>
+    </p>
+
+    <p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/avegarten">[github: avegarten]</a>
+    </p>
+
+    <p>
+    <a href="#" onclick="copyDiscord(event)" style="color: #e27f87;">[discord: avenue.st]</a>
+    </p>
+
+
+
+<script>
+function copyDiscord(event) {
+    event.preventDefault(); 
+
+    const discordUsername = "avenue.st";
+    
+    navigator.clipboard.writeText(discordUsername).then(function() {
+        const link = event.target;
+        const originalText = link.textContent;
+        link.textContent = "[copied: see you soon :3]";
+        link.style.color = "#7f85a3";
+        
+        setTimeout(() => {
+            link.textContent = originalText;
+            link.style.color = "#e27f87";
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Could not copy text: ', err);
+        alert('Please copy manually: ' + discordUsername);
+    });
+}
+</script>
+    
+
+
+
+<p>
+    i'll try to respond to you as soon as possible. if i don't, sorry. i'll try to though, okay?
+</p>
+
+
+<br class = "footer_space">
+
+<div align="center">
+
+<p class="foot">
+
+<a href="https://aaesop.org/index.html"> [index]</a>
+
+  &nbsp;
+  
+  <a href="https://aaesop.org/contact.html"> [contact]</a>
+
+  &nbsp;
+
+<a href="https://aaesop.org/fables.html"> [fables]</a>
+
+</p>
+</div>
+
+</body>
+</html>
+
+
+
